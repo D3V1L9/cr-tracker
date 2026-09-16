@@ -9,7 +9,6 @@
     <script>
       (function() {
         const storedTheme = localStorage.getItem('theme');
-        // We default to dark mode if there's no stored theme
         if (storedTheme === 'light') {
           document.documentElement.classList.remove('dark');
         } else {
